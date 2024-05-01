@@ -18,15 +18,15 @@ const Navbar = () => {
           </Menu.Item>
           
           <Menu.Item icon={<FundOutlined />}>
-          <Link to="./">Stock</Link>
+          <Link to="./stock">Stock</Link>
           </Menu.Item>
           
           <Menu.Item icon={<MoneyCollectOutlined />}>
-          <Link to="./">Purchase</Link>
+          <Link to="./purchase">Purchase</Link>
           </Menu.Item>
           
           <Menu.Item icon={<BulbOutlined />}>
-          <Link to="./">News</Link>
+          <Link to="./news">News</Link>
           </Menu.Item>
           
         </Menu>
